@@ -1,0 +1,62 @@
+{
+  "category": "CRYPTID",
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/gumberoo",
+    "maintainers": [{"name": "Wyrdness Team", "github": "wyrdness", "role": "maintainer"}],
+    "license": {"data": "CC0-1.0", "content": "CC-BY-4.0"}
+  },
+  "phenomenon": {
+    "id": "gumberoo",
+    "name": "Gumberoo",
+    "category": "CRYPTID",
+    "subcategory": "Fearsome Critter",
+    "tags": ["fearsome-critter", "lumberjack-folklore", "pacific-northwest", "explosive", "invulnerable"],
+    "status": "folklore",
+    "description": {
+      "summary": "A huge bear-like creature with hairless rubbery black skin that is impervious to weapons but explodes violently when exposed to fire.",
+      "full": "The Gumberoo is a fearsome critter from Pacific Northwest lumberjack folklore, described as an enormous bear-sized creature with hairless, black, leathery skin that has a rubbery, bouncy quality. According to the tales, the Gumberoo would raid logging camps for food, and its rubbery hide made it invulnerable to conventional weapons - bullets and arrows simply bounced off. However, the creature had one fatal weakness: exposure to fire caused it to explode violently and spectacularly. The Gumberoo represents the fearsome critter tradition of creating creatures with exaggerated invulnerabilities and absurd weaknesses."
+    },
+    "etymology": {
+      "origin": "Pacific Northwest lumberjack folklore, early 1900s",
+      "meaning": "Unknown origin, possibly nonsense word",
+      "first_use": "Early 20th century"
+    }
+  },
+  "classification": {
+    "taxonomy": {"category": "CRYPTID", "type": "Fearsome Critter", "subtype": "Invulnerable/Explosive", "variant": "Pacific Northwest"}
+  },
+  "characteristics": {
+    "physical": {
+      "features": [
+        {"feature": "Size", "description": "Large as black bear or larger", "frequency": "always"},
+        {"feature": "Skin", "description": "Hairless, black, leathery, rubbery/bouncy", "frequency": "always"},
+        {"feature": "Build", "description": "Bear-like, enormous", "frequency": "always"}
+      ]
+    },
+    "abilities": [
+      {"ability": "Weapon immunity", "description": "Bullets and weapons bounce off rubbery skin", "frequency": "always", "evidence_level": "folklore"},
+      {"ability": "Explosive weakness", "description": "Explodes violently when burned", "frequency": "always", "evidence_level": "folklore"}
+    ],
+    "behavior": {
+      "disposition": "dangerous, camp raider",
+      "habitat_preference": ["Pacific Northwest forests", "logging camps"],
+      "diet": "Raids logging camps for food",
+      "patterns": ["Raids camps", "Impervious to weapons", "Explodes if burned"]
+    }
+  },
+  "distribution": {
+    "range": {"description": "Pacific Northwest lumberjack folklore", "continents": ["North America"], "countries": ["United States"], "regions": ["Pacific Northwest", "Logging camps"]}
+  },
+  "cultural": {
+    "folklore": {
+      "traditions": ["Pacific Northwest lumberjack tales"],
+      "significance": "Example of invulnerable creature with absurd weakness"
+    }
+  },
+  "sources": [
+    {"id": "cox-1910", "type": "book", "title": "Fearsome Creatures of the Lumberwoods", "authors": ["William T. Cox"], "date": "1910"}
+  ]
+}
